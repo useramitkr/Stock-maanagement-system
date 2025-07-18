@@ -1,50 +1,34 @@
-# Welcome to your Expo app 👋
+# 📦 Inventory Management App – Stock Management Made Simple
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to **Inventory Management App**, your go-to mobile solution for managing inventory on the go. Whether you're a shopkeeper, warehouse operator, or simply want to keep track of household items — this app is designed for you.
 
-## Get started
+App Video Demo: https://youtube.com/shorts/BXtZ94rvQ7Q?si=FwXl2XT9UyTfWces
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. Start the app
+- ✅ **Add New Items**: Input item name and quantity with real-time validation.
+- 🔁 **Edit & Update**: Modify item details instantly.
+- ❌ **Delete Items**: Remove outdated or unwanted items from your list.
+- 📉 **Live Stock Monitoring**: Stay on top of current stock levels.
+- 🧼 **Form Validation**:
+  - Only text allowed in Item Name.
+  - Only numbers allowed in Quantity.
+- 📱 **Responsive UI**: Smooth and intuitive design that works on both Android & iOS.
+- ⌨️ **Keyboard Handling**: Automatically hides keyboard on submission or outside press.
+- 📜 **Scroll Support**: Seamlessly scroll through long lists of items.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Follow these steps to run the app on your local machine.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1️⃣ Clone the Repository
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/inventory-app.git
+cd inventory-app
+npm install
+npx expo start
